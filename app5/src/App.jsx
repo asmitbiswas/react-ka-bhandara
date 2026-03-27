@@ -10,6 +10,8 @@ function App() {
     setUsers(users.filter((u) => u.name !== name));
   };
 
+        
+
   return (
     <div>
       {users.map((u, index) => (
