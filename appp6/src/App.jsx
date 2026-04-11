@@ -74,6 +74,11 @@ const part3= {
   excersises: excersises3
 }
 
+const total = part1.excersises + part2.excersises + part3.excersises
+
 export default App; 
+
+
+
 
 
