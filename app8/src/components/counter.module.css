@@ -24,5 +24,6 @@
 
 .counter button:hover{
     background-color: darkblue;
+    color: aliceblue;
 }
 
