@@ -3,6 +3,7 @@ import React from "react";
 import { Card } from "./components/card";
 import { Button } from "./components/button";
 import { UserDetails } from "./components/userCard";
+import { Counter } from "./components/counter";
 
 function app(){
   return(
@@ -34,7 +35,10 @@ function app(){
     avatarImgFact="The tough guy pic"
     onFollow={() => ("I am followed")}
     onMessage={() => ("I am messaged") }
+
+
     />
+    <Counter/>
   </div>
   
     
