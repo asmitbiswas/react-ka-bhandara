@@ -32,8 +32,8 @@ function app(){
     userBio="Hey, I am a teen dev learning to web dev fro making my future safe and successful. I wanna make my parent proud. - Thanks ^-^"
     userRole="I am a front end kinda seniior dev"
     avatarImgFact="The tough guy pic"
-    onFollow={() => {"I am followed"}}
-    onMessage={() => {"I am messaged"} }
+    onFollow={() => ("I am followed")}
+    onMessage={() => ("I am messaged") }
     />
   </div>
   
