@@ -4,7 +4,7 @@ import { Card } from "./components/card";
 import { Button } from "./components/button";
 import { UserDetails } from "./components/userCard";
 import { Counter } from "./components/counter";
-
+import { Input } from "./components/Input";
 function app(){
   return(
 
@@ -39,6 +39,7 @@ function app(){
 
     />
     <Counter/>
+    <Input/>
   </div>
   
     
