@@ -1,0 +1,23 @@
+.simple{
+    padding: 23px;
+    text-align: center;
+    background: #000;
+    border-radius: 6px;
+    margin: 23px;
+}
+.simple h1{
+    font-size: medium;
+}
+.simple button{
+    padding: 45px;
+    background: #000;
+    color: white;
+    border: 15px 0 0 black;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px 0 rgb(0 ,0 ,0.1, 0.2);
+}
+.simple button:hover{
+    background-color: black;
+    color: white;
+}

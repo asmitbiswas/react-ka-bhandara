@@ -5,6 +5,7 @@ import { Button } from "./components/button";
 import { UserDetails } from "./components/userCard";
 import { Counter } from "./components/counter";
 import { Input } from "./components/Input";
+import { Effect } from "./components/SimpleEffect";
 function app(){
   return(
 
@@ -40,6 +41,7 @@ function app(){
     />
     <Counter/>
     <Input/>
+    <Effect/>
   </div>
   
     
