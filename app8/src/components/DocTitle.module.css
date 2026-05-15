@@ -1,0 +1,26 @@
+.doc{
+    padding: 20px;
+    background: #000;
+    border-radius: 32px ;
+    margin: 54px;
+    box-shadow: 21px 0px 0px rgba(0, 0, 0.67, 0.69);
+}
+.doc input{
+    width: 12px;
+    padding: 6px;
+    border: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.doc input:focus{
+    outline: none;
+    border-color: aqua;
+}
+.doc p{
+    color: blue;
+    font-size: large;
+    margin: 21px;
+}
