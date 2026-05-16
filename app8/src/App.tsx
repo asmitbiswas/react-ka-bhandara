@@ -6,7 +6,9 @@ import { UserDetails } from "./components/userCard";
 import { Counter } from "./components/counter";
 import { Input } from "./components/Input";
 import { Effect } from "./components/SimpleEffect";
-import type { DocTitle } from "./components/DocTitle";
+import  { DocTitle } from "./components/DocTitle";
+import { Tab } from "./components/Tabs";
+
 
 function app(){
   return(
@@ -44,7 +46,8 @@ function app(){
     <Counter/>
     <Input/>
     <Effect/>
-    <DocTitle/> 
+    <DocTitle/>  
+    <Tab/>
   </div>
   
     
