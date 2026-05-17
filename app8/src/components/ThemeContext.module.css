@@ -1,0 +1,24 @@
+.switcher {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  transition: all 0.3s;
+}
+
+.switcher h1 {
+  margin: 0 0 20px 0;
+}
+
+.switcher button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+}
+
+.switcher button:hover {
+  background: darkblue;
+}

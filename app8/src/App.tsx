@@ -8,6 +8,7 @@ import { Input } from "./components/Input";
 import { Effect } from "./components/SimpleEffect";
 import  { DocTitle } from "./components/DocTitle";
 import { Tab } from "./components/Tabs";
+import { ThemeSwitcher } from "./components/ThemeContext";
 
 
 function app(){
@@ -48,6 +49,7 @@ function app(){
     <Effect/>
     <DocTitle/>  
     <Tab/>
+    <ThemeSwitcher/>
   </div>
   
     
